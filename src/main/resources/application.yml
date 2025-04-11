@@ -1,0 +1,7 @@
+quarkus:
+  auth:
+    permission:
+      jwt:
+        policy: authenticated
+        paths: /api/v1/tax/*
+        auth-mechanism: bearer
